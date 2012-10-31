@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>checker.bmp</Source>
+      <Name>checker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\checker.xnb</Output>
+      <Time>2012-05-07T06:10:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>raindrop.png</Source>
+      <Name>raindrop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\raindrop.xnb</Output>
+      <Time>2012-05-07T11:21:08-05:00</Time>
+    </Item>
+    <Item>
+      <Source>water.png</Source>
+      <Name>water</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\water.xnb</Output>
+      <Time>2012-05-09T16:29:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>smoke.png</Source>
+      <Name>smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\smoke.xnb</Output>
+      <Time>2012-05-16T15:34:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>fire.png</Source>
+      <Name>fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\fire.xnb</Output>
+      <Time>2012-05-16T18:21:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>rain.png</Source>
+      <Name>rain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\rain.xnb</Output>
+      <Time>2012-05-25T15:19:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>grid.x</Source>
+      <Name>grid</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\grid.xnb</Output>
+      <Time>2012-05-07T06:10:00-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\obj\x86\Debug\grid_0.xml</Key>
+        <Value>2012-10-30T20:32:02.968409-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\checker_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>speedFont.spritefont</Source>
+      <Name>speedFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\speedFont.xnb</Output>
+      <Time>2012-06-07T09:33:24-05:00</Time>
+    </Item>
+    <Item>
+      <Source>grid.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\obj\x86\Debug\grid_0.xml</Output>
+      <Time>2012-05-07T06:10:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>checker.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\checker_0.xnb</Output>
+      <Time>2012-05-07T06:10:00-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{A8538013-A7BA-49F3-BF45-6A5FD861129F}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystemContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\sooding\Desktop\Dktp\EECS-499\particleSystem\particleSystem\particleSystem\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-08-04T02:19:58.6610595-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
